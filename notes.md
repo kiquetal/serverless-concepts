@@ -31,10 +31,32 @@
 	Automatic spin down
 
 
-	Heavy lifting/remove obstacles
+	Undifferentiated Heavy lifting/remove obstacles
 
 ##### FaaS use cases
 
 	Act on data change
 	->Upload file on a S3-> trigger lambda
+	->Listen to message queue
 	
+##### Backend as Services
+
+	Managed database on the cloud
+	Think about primary/secondary
+
+#### What are microservices?
+
+	Are independently deployable services that work together, modelled around a business domain
+	Ships software more quickly.
+	Data owned by service.
+
+#### Problems with 'traditional' microservices.
+	
+	You must patch in every layer.
+
+#### Baas as Microservices
+
+	Database coupling problemas
+	service-invoicing,service-payroll,service-insights------> same db. (can't change[resource protection]).
+			
+
